@@ -19,12 +19,15 @@
 
 .selected.vip {
   background-color: coral;
+  color: var(--vt-c-black-soft);
 }
 .selected.standard  {
   background-color: teal;
+  color: var(--vt-c-black-soft);
 }
 .selected.camp {
   background-color: aquamarine;
+  color: var(--vt-c-black-soft);
 }
 .booked {
   background-color: #aaa;
@@ -118,6 +121,15 @@
   gap: 10px;
 }
 
+.zone-selector-block {
+  color: var(--vt-c-white);
+}
+.custom-radio-button {
+  color: var(--vt-c-white);
+}
+.zones h2 {
+  padding-bottom: 10px;
+}
 
 
 @media(max-width: 768px) {

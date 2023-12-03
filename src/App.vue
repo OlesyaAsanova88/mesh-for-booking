@@ -125,5 +125,4 @@ const selectedSeatsInfo = computed(() => {
 
 <style scoped>
 
-
 </style>
