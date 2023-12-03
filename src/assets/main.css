@@ -1,0 +1,146 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.seat {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selected.vip {
+  background-color: coral;
+}
+.selected.standard  {
+  background-color: teal;
+}
+.selected.camp {
+  background-color: aquamarine;
+}
+.booked {
+  background-color: #aaa;
+  color: #fff;
+}
+.vip {
+  border: 1px solid coral; /* Цвет для VIP */
+}
+.standard {
+  border: 1px solid teal; /* Цвет для Standard */
+}
+.camp {
+  border: 1px solid aquamarine; /* Цвет для Camp */
+}
+.zone-selector {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.zone {
+  margin-top: 20px;
+}
+.booking-form {
+  margin-bottom: 20px;
+}
+.disabled {
+  background-color: #aaa;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.time-selection {
+  margin-bottom: 10px;
+}
+.alert {
+  color: red;
+}
+.booking-form-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(255, 228, 187);
+  color: var(--vt-c-black-soft);
+  cursor: pointer;
+}
+.booking-form-btn:hover {
+  background-color: rgb(245, 151, 10);
+  color: var(--vt-c-white);
+  transition: all ease 0.5s;
+}
+.booking-form-btn:disabled {
+  background-color: #ccc;
+  color: #aaa;
+}
+
+.custom-radio-button input[type="radio"] {
+  display: none;
+}
+
+.custom-radio-button .radio-button {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border: 2px solid rgb(255, 228, 187);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.custom-radio-button input[type="radio"]:checked + .radio-button {
+  background-color: rgb(245, 151, 10);
+}
+
+.custom-radio-button {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.booking-info {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.zone-selector-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+@media(max-width: 768px) {
+  #app {
+    padding: 15px;
+  }
+  .zone-selector {
+    flex-direction: column;
+  }
+  .time-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .zone-selector span {
+    display: block;
+    max-width: 120px;
+    padding-top: 15px;
+  }
+  .booking-info {
+    max-width: 40%;
+    padding: 10px;
+    top: 10px;
+    right: 15px;
+  }
+}
