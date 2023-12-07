@@ -1,35 +1,6 @@
-# .
+# Booking
 
-This template should help get you started developing with Vue 3 in Vite.
+<a href=" https://olesyaasanova88.github.io/mesh-for-booking/"> https://olesyaasanova88.github.io/mesh-for-booking/</a>
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<p>Бронирование мест на определенное время</p>
+<img src="https://dreamisland.ru/upload/iblock/d55/mamdkzlzu5hly6jafhdmpm9zsac4i7eg.jpg" />
